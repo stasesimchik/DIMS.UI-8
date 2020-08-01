@@ -1,0 +1,21 @@
+.main {
+  height: 85vh;
+}
+
+.main-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.main-container button {
+  border: none;
+  background-color: none;
+  margin: 5px;
+  width: 100px;
+  padding: 5px 0px;
+  color: #fff;
+}

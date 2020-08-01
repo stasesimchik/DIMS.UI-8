@@ -1,0 +1,77 @@
+.btn {
+  border: none;
+  background-color: none;
+  margin: 5px;
+  width: 40px;
+  padding: 5px 0px;
+  color: #fff;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.membersBtn__block {
+  margin: auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.membersBtn__block img {
+  width: 25px;
+  height: 25px;
+}
+
+.navMenu__link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.navMenu__link:hover {
+  color: black;
+  text-decoration: none;
+}
+
+.btnEdit {
+  border: none;
+  background-color: none;
+  margin: 5px;
+  width: 40px;
+  padding: 5px 0px;
+  color: #fff;
+  background: rgba(128, 128, 128, 0.2);
+}
+
+.btnDelete {
+  background-color: #990000;
+  border: none;
+  background-color: none;
+  margin: 5px;
+  width: 40px;
+  padding: 5px 0px;
+  color: #fff;
+}
+
+table {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  font-size: 14px;
+  background: white;
+  max-width: 100%;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th {
+  font-weight: normal;
+  color: #039;
+  padding: 10px 15px;
+}
+
+td {
+  color: #669;
+  border-top: 1px solid #e8edff;
+  padding: 10px 15px;
+  vertical-align: middle;
+}
+
+tr:nth-child(2n) {
+  background: #e8edff;
+}

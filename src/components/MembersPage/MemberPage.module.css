@@ -1,0 +1,73 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.form label {
+  display: block;
+}
+
+.form input, .form select {
+  width: 205px;
+  height: 20px;
+  margin: 0px 5px;
+}
+
+.form select {
+  margin: 0px 15px;
+}
+
+.form__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.confirm {
+  background-color: #089933;
+  border: none;
+  color: #fff;
+  width: 100px;
+  padding: 10px 0px;
+  margin: 10px;
+}
+
+.cancel {
+  background-color: #ad0b05;
+  border: none;
+  color: #fff;
+  width: 100px;
+  padding: 10px 0px;
+  margin: 10px;
+}
+
+.error {
+  color: red;
+  font-style: italic;
+  font-size: 10px;
+}

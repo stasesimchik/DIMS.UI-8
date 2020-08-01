@@ -1,0 +1,25 @@
+.modal__body {
+  background-color: #fff;
+  width: 40%;
+  margin: 10px 0px;
+  -webkit-box-shadow: 5px 5px 50px 3px black;
+          box-shadow: 5px 5px 50px 3px black;
+  overflow: auto;
+}
+
+.modal__body header {
+  text-align: center;
+  padding: 10px 0px;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.5);
+}
+
+.modal__body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
